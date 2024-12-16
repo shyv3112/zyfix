@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      ZYFIX TOOLS PRIVATE LTD - The Company Most Trusted by Die Mould Industry
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .hidden {
+        display: none !important;
+      }
+      .visible {
+        display: block !important;
+      }
+      .transition-transform {
+        transition: transform 0.3s;
+      }
+      .sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+      }
+      .custom-padding {
+        padding-left: 185px;
+        padding-right: 185px;
+      }
+      .text-custom {
+        color: #3498db;
+      }
+      .bg-footer {
+        background-color: #0e2838;
+      }
+      .text-footer {
+        color: #a9a9a9;
+        text-decoration: none;
+      }
+      .text-footer a {
+        color: #a9a9a9;
+      }
+      .text-footer a:hover {
+        color: #3498db;
+      }
+      .text-primary {
+        color: #3498db !important;
+      }
+      .fs-4 {
+        font-size: 1.25rem;
+      }
+      .social-icons-header i {
+        font-size: 1rem;
+        color: lightslategrey;
+      }
+      .social-icons i {
+        font-size: 1.5rem;
+        color: #fff;
+      }
+      .footer-logo {
+        width: 250px;
+        height: 79px;
+      }
+      .container {
+        max-width: 1300px;
+      }
+      .social-icons a {
+        color: white;
+        text-decoration: none;
+      }
+      .social-icons a:hover {
+        color: #3498db;
+      }
+      .nav-link.text-primary {
+        color: #3498db !important;
+      }
+      .text-footer a.text-primary {
+        color: #3498db !important;
+      }
+      .tooltip {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        z-index: 10;
+      }
+      .tooltip.visible {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Top Header -->
+      <div
+        id="top-header"
+        class="bg-light py-1 transition-transform visible custom-padding"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <div class="address text-primary d-flex align-items-center fs-6">
+            <i
+              class="bi bi-geo-alt-fill me-2"
+              style="color: lightslategray"
+            ></i>
+            <span class="fs-6 text-custom">
+              Plot No: 1/B-5, Phase-1, S V Co-Operative Industrial Estate,
+              Balanagar, Hyderabad-500037
+            </span>
+          </div>
+          <div class="social-icons-header">
+            <a
+              href="https://www.facebook.com/zyfix/"
+              target="_blank"
+              class="text-muted me-3"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/zyfixtoolspvtltd/"
+              target="_blank"
+              class="text-muted"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Header -->
+      <div
+        class="main-header bg-white py-2 shadow-sm sticky-top custom-padding"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <!-- Logo -->
+          <div class="logo">
+            <img
+              src="/assets/images/zx_logo_name.jpg"
+              alt="Logo"
+              width="350"
+              height="70"
+            />
+          </div>
+          <!-- Contact Info -->
+          <div class="right-content d-flex flex-column align-items-end">
+            <div
+              class="contact-info d-flex justify-content-end align-items-center gap-3 mt-2"
+            >
+              <div
+                class="contact-item d-flex align-items-center fs-6 text-primary border rounded-2 px-2 py-1"
+              >
+                <a
+                  href="mailto:zyfix@zyfix.in"
+                  class="text-dark text-decoration-none fw-normal"
+                >
+                  <i
+                    class="bi bi-envelope-fill me-2"
+                    style="color: #3498db; padding-right: 8px"
+                  ></i>
+                </a>
+                <span class="text-custom fw-bold">zyfix@zyfix.in</span>
+              </div>
+              <div
+                class="contact-item d-flex align-items-center fs-6 text-primary border rounded-2 px-2 py-1"
+              >
+                <a
+                  href="mailto:zyfix_tools@yahoo.com"
+                  class="text-dark text-decoration-none fw-normal"
+                >
+                  <i
+                    class="bi bi-envelope-fill me-2"
+                    style="color: #3498db; padding-right: 8px"
+                  ></i>
+                </a>
+                <span class="text-custom fw-bold">zyfix_tools@yahoo.com</span>
+              </div>
+              <div
+                class="contact-item d-flex align-items-center fs-6 text-primary border rounded-2 px-2 py-1"
+              >
+                <a
+                  href="tel:+919441662320"
+                  class="text-dark text-decoration-none fw-normal"
+                >
+                  <i
+                    class="bi bi-telephone-fill me-2"
+                    style="color: #3498db; padding-right: 8px"
+                  ></i>
+                </a>
+                <span class="text-custom fw-bold">+91 9441662320</span>
+              </div>
+            </div>
+            <!-- Navigation -->
+            <nav class="navbar">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold text-black fs-6"
+                    href="/home"
+                    data-page="home"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold text-black fs-6"
+                    href="/know-zyfix"
+                    data-page="know-zyfix"
+                    >KNOW ZYFIX</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold text-black fs-6"
+                    href="/services"
+                    data-page="services"
+                    >SERVICES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold text-black fs-6"
+                    href="/why-zyfix"
+                    data-page="why-zyfix"
+                    >WHY ZYFIX</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold text-black fs-6"
+                    href="/contact"
+                    data-page="contact"
+                    >CONTACT US</a
+                  >
+                </li>
+                <li class="nav-item search-container position-relative">
+                  <div class="pt-2">
+                    <i
+                      class="bi bi-search fw-bold text-black"
+                      id="search-toggle"
+                      style="cursor: pointer"
+                    ></i>
+                    <div
+                      id="search-box"
+                      class="tooltip position-absolute top-100 start-50 translate-middle-x bg-white border border-light rounded-3 shadow-lg p-2 z-index-10 hidden"
+                      style="width: 250px"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Search..."
+                        class="search-input w-100 p-2 border-0 rounded-3"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main-content">
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-footer text-light py-4 custom-padding">
+      <div class="container">
+        <div class="row">
+          <!-- First Column: Logo & Description -->
+          <div class="col-md-3 d-flex flex-column">
+            <img
+              src="/assets/images/footer-logo-white1.png"
+              alt="ZYFIX Logo"
+              class="footer-logo mb-4"
+            />
+            <p class="fs-6 text-footer text-justify">
+              We are India’s foremost Standard and Custom-Built Mould Base
+              manufacturing industry with State-of-the-Art facilities and
+              dedicated manpower. We offer 100% Delivery Performance and
+              Negligible Rejection Level.
+            </p>
+          </div>
+
+          <!-- Second Column: Navigation -->
+          <div class="col-md-3 pt-3">
+            <h4 class="text-white pb-1">Navigation</h4>
+            <ul class="list-unstyled mt-2 pt-3 border-top">
+              <li class="mb-3">
+                <a
+                  href="/home"
+                  class="nav-link text-footer fs-6 active"
+                  data-page="home"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  href="/about"
+                  class="nav-link text-footer fs-6 active"
+                  data-page="know-zyfix"
+                  >Know ZYFIX</a
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  href="/services"
+                  class="nav-link text-footer fs-6 active"
+                  data-page="services"
+                  >Services</a
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  href="/why-zyfix"
+                  class="nav-link text-footer fs-6 active"
+                  data-page="why-zyfix"
+                  >Why ZYFIX</a
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  href="/contact"
+                  class="nav-link text-footer fs-6 active"
+                  data-page="contact"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Third Column: Socialize & Subscribe -->
+          <div class="col-md-3 pt-3">
+            <h4 class="text-white pb-1">Socialize with Us</h4>
+            <p class="fs-6 text-footer mt-2 pt-3 border-top">
+              Contact us via social networks
+            </p>
+            <div class="social-icons d-flex gap-3 mb-4">
+              <a href="https://www.facebook.com/zyfix/" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/zyfixtoolspvtltd/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+
+            <h4 class="pb-1">Subscribe</h4>
+            <form class="d-flex mt-2 pt-3 border-top">
+              <input
+                type="email"
+                class="form-control me-2 rounded-0"
+                placeholder="Email"
+                aria-label="Email"
+              />
+              <button type="submit" class="btn btn-primary rounded-0">
+                <i class="bi bi-envelope-fill"></i>
+              </button>
+            </form>
+          </div>
+
+          <!-- Fourth Column: Reach Us -->
+          <div class="col-md-3 pt-3">
+            <h4 class="pb-1">Reach Us</h4>
+            <ul class="list-unstyled mt-2 pt-3 border-top">
+              <li class="d-flex gap-3 mb-4">
+                <i class="bi bi-geo-alt-fill" style="color: #3498db"></i>
+                <p class="mb-0 text-custom fs-6">
+                  Plot Number: 1/B-5, IDA, Phase-1, Sri Venkateswara
+                  Co-Operative Industrial Estate, Opp. I.D.P.L. Factory (R&D),
+                  Balanagar, Hyderabad – 500037, India.
+                </p>
+              </li>
+              <li class="mb-3">
+                <i class="bi bi-telephone-fill me-2" style="color: #3498db"></i>
+                <a
+                  href="tel:+919441662320"
+                  class="text-custom text-decoration-none fs-6"
+                  >+91 9441662320</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="bi bi-telephone-fill me-2" style="color: #3498db"></i>
+                <a
+                  href="tel:+914023771633"
+                  class="text-custom text-decoration-none fs-6"
+                  >+91 40 23771633</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="bi bi-envelope-fill me-2" style="color: #3498db"></i>
+                <a
+                  href="mailto:zyfix@zyfix.in"
+                  class="text-custom text-decoration-none fs-6"
+                  >zyfix@zyfix.in</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-envelope-fill me-2" style="color: #3498db"></i>
+                <a
+                  href="mailto:zyfix_tools@yahoo.com"
+                  class="text-custom text-decoration-none fs-6"
+                  >zyfix_tools@yahoo.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div
+        class="d-flex justify-content-between align-items-center pt-4 border-top"
+      >
+        <span class="text-footer fs-6"
+          >Copyright © 2018 ZYFIX Tools Private Limited.</span
+        >
+        <span class="text-footer fs-6">
+          Designed & Developed by
+          <a
+            href="https://www.areksoft.com"
+            class="text-primary text-decoration-none"
+            >Areksoft Technologies</a
+          >
+        </span>
+      </div>
+    </footer>
+    <script>
+      document
+        .getElementById("search-toggle")
+        .addEventListener("click", function () {
+          const searchBox = document.getElementById("search-box");
+          if (searchBox.classList.contains("visible")) {
+            searchBox.classList.remove("visible");
+            searchBox.classList.add("hidden");
+          } else {
+            searchBox.classList.remove("hidden");
+            searchBox.classList.add("visible");
+          }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
